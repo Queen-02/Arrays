@@ -13,17 +13,17 @@ fun main(){
     println(con.contentToString())
 }
 
-//fun array(characters:Array<String>) {
-//    var strings = characters
-//    println(strings.contentToString())
-//}
-//
-//fun city() {
-//    var cities = arrayOf("harare", "mumbai", "dodoma", "jakarta")
-//    cities.forEach { city ->
-//        println(city.capitalize())
-//    }
-//}
+fun array(characters:Array<String>) {
+    var strings = characters
+    println(strings.contentToString())
+}
+
+fun city() {
+    var cities = arrayOf("harare", "mumbai", "dodoma", "jakarta")
+    cities.forEach { city ->
+        println(city.capitalize())
+    }
+}
 
 fun calculations() {
     var numbers = arrayOf(32, 17,4,213,78,43,90,31,3,73,11,158,62)
