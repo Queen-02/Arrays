@@ -1,6 +1,6 @@
 fun main(){
     //Question one
-    array(arrayOf("Alan", "Zuriel", "Naham", "Zahavah"))
+    array("Alan", "Zuriel", "Naham", "Zahavah")
 
     //Question two
     city()
@@ -13,8 +13,8 @@ fun main(){
     println(con.contentToString())
 }
 
-fun array(characters:Array<String>) {
-    var strings = characters
+fun array(w:String, x:String, y:String, z:String) {
+    var strings = arrayOf(w, x, y, z)
     println(strings.contentToString())
 }
 
